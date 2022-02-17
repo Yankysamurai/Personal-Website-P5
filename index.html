@@ -8,35 +8,90 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- header -->
+
     <navbar id="navbar">
       <div>
-        <img src="images/logo.png" width="30px" alt="logo" />
+        <img src="images/logo3.png" width="50px" alt="logo" />
       </div>
       <ul>
         <li><a href="#welcome-section">About</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </navbar>
-    <section id="welcome-section" class="about">
-      <h1 class="about_h1">I am Will Brooks</h1>
+
+    <!-- about -->
+
+    <section id="welcome-section" class="welcome-section">
+      <h1 class="about_h1">Hello, Will Brooks here</h1>
       <div class="about_img_h2">
         <div>
-          <img src="images/will.jpeg" width="100px" class="about_img" />
+          <img src="images/will.jpeg" class="about_img" />
         </div>
-        <div>
+        <div class="about-div-h2">
           <h2 class="about_h2">Welcome to my site</h2>
         </div>
       </div>
     </section>
-    <section id="Projects" class="projects">
-      <h1>Project Sample List</h1>
-      <div class="projects_group">
-        <div>
-          <img src="images/p4.png" width="400px" />
-          
+
+    <!-- projects -->
+
+    <section id="projects" class="projects">
+      <h1 class="projects-tile">Project Sample List</h1>
+      <div class="group-container">
+        <div class="group-1-2">
+          <div class="projects_group">
+            <div class="project-img">
+              <a
+                href="https://codepen.io/Yankee-Samurai/details/rNYLJrv"
+                target="blank"
+                ><img src="images/landing.jpeg" width="400px"
+              /></a>
+            </div>
+            <div class="project-name">
+              <h2 class="project-h2">Project 1</h2>
+            </div>
+          </div>
+
+          <div class="projects_group">
+            <div class="project-img">
+              <a href="https://codepen.io/Yankee-Samurai/pen/bGoRvqo" target="blank"><img src="images/tech-doc.jpeg" width="400px" /></a>
+            </div>
+            <div class="project-name">
+              <h2>Project 2</h2>
+            </div>
+          </div>
+        </div>
+        <div class="group-1-2">
+          <div class="projects_group">
+            <div class="project-img">
+              <a href="https://codepen.io/Yankee-Samurai/pen/WNZjXed" target="blank"><img src="images/menu.jpeg" width="400px" /></a>
+            </div>
+            <div class="project-name">
+              <h2>Project 3</h2>
+            </div>
+          </div>
+          <div class="projects_group">
+            <div class="project-img">
+              <a href="https://codepen.io/Yankee-Samurai/pen/bGoReWa" target="blank"><img src="images/tribute.jpeg" width="400px" /></a>
+            </div>
+            <div class="project-name">
+              <h2>Project 4</h2>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- footer -->
+
+    <footer id="contact">
+      <ul class="footer-ul">
+        <li><a id="profile-link"  href="https://github.com/Yankysamurai" target="_blank">GitHub</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
